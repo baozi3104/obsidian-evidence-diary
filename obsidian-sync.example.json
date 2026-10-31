@@ -1,0 +1,17 @@
+{
+  "vault": "D:/Notes/demo-vault",
+  "runtime_dir": "D:/ObsidianDiaryData/runtime",
+  "backup_dir": "D:/ObsidianDiaryData/backups",
+  "temp_dir": "D:/ObsidianDiaryData/temp",
+  "first_date": "2026-10-31",
+  "codex_executable": "D:/Tools/Codex/codex.exe",
+  "projects": [
+    {"name": "demo-project", "path": "D:/Projects/demo-project"}
+  ],
+  "sources": {
+    "codex_home": "D:/ExampleAIData/codex",
+    "claude_dirs": [],
+    "exclude_session_ids": [],
+    "exclude_text_patterns": []
+  }
+}
