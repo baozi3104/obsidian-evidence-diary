@@ -8,6 +8,9 @@ from obsidian_sync.notes import VaultWriter
 
 
 def main():
+    # Redirected Windows consoles may use a codec without Chinese glyphs.
+    # Preserve a readable escaped path instead of failing after writing the demo.
+    sys.stdout.reconfigure(errors='backslashreplace')
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', required=True, help='A new, empty demo directory')
     args = parser.parse_args()
